@@ -1,0 +1,198 @@
+
+
+html , body {
+   
+    margin: 0;
+    padding: 0;
+}
+
+.parent-con {
+    display: flex;
+    
+}
+
+.parent-2-con {
+    padding-top: 80px;
+    width: 100%;
+
+}
+.main_txt{
+    
+    font-size: 60px;
+    font-family: "Kanit", sans-serif;
+    text-align: center;
+}
+
+.big_div {
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    
+}
+
+.std_div span , .scr_div span{
+    font-family: "Bai Jamjuree", sans-serif;
+    font-size: 30px;
+   
+}
+
+.std_id,.score{
+    max-width: 300px;
+    width: 80%;
+    height: 30px;
+    border: 2px black solid;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.sub {
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+    align-items: center;
+
+    width: 90%;
+    max-width: 200px;
+   
+    border: 1px solid white;
+    background-color: rgb(54, 77, 246);
+    height: 40px;
+    border-radius: 5px;
+
+    transition: all .2s ease;
+    
+}
+
+.sub p{
+    
+    font-size: 20px;
+    color: white;
+    font-family: "Noto Sans Thai", sans-serif;
+}
+
+
+
+/* pop UP */
+
+
+
+.pop-up {
+
+    display: none;
+    flex-direction: column;
+    
+    animation-name: pop-up;
+    animation-duration: 0.5s;
+    
+  
+
+    padding-top: 15px;
+    position: absolute;
+    width: 370px;
+    height: 335px;
+
+    top: 30%;
+    right: 40%;
+    bottom: 40%;
+    left: 40%;
+   
+    background-color: white;
+    box-shadow: 0 0 20px black;
+
+    border-radius: 20px;
+
+}
+
+
+@keyframes pop-up{
+    0% {
+        transform:translateY(20%);
+    }
+
+
+    100% {
+        transform:translateY(0%);
+    }
+}
+
+
+@keyframes pop-down{
+    0% {
+        transform:translateY(0%);
+    }
+
+
+    100% {
+        opacity: 0;
+        transform:translateY(10%);
+    }
+}
+
+.down {
+    animation: pop-down;
+    animation-duration: 0.3s;
+    animation-iteration-count: 1;
+}
+
+.green {
+
+    
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    background-color: rgb(29, 205, 29);
+}
+
+.txts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main_text{
+    
+    text-align: center;
+    font-family: "Prompt", sans-serif;
+    font-size: 20px;
+    font-weight: 500px;
+}
+
+
+
+.btn button{
+    width: 140px;
+    height: 50px;
+    background-color: rgb(0, 0, 0);
+    border: 0;
+    font-size: 20px;
+    color: white;
+    border-radius: 15px;
+    
+    
+}
+
+.sub:hover {
+    transform: scale(1.2,1.2);
+}
+
+.btn {
+    margin: auto;
+}
+.explain {
+    font-family: "Bai Jamjuree", sans-serif;
+    font-size: 15px;
+}
+
+.bx {
+    
+    text-align: center;
+    font-size: 90px;
+    color: white;
+}

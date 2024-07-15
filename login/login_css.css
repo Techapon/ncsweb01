@@ -1,0 +1,243 @@
+
+
+body, html {
+    padding: 0px;
+    margin: 0px;
+    background-size: cover;
+    background-color: black;
+    background-image: url("http://localhost/img_folder/skr1.jpg");
+    
+}
+
+.login_text {
+    font-family: "Mitr", sans-serif;
+
+    margin-top: 75px;
+    margin-bottom: 50px;
+    
+    font-size: 75px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    
+}
+
+
+.box_user {
+    margin: auto;
+    width: 60%;
+
+    display: flex;
+    flex-wrap: nowrap;
+
+    align-items: center;
+
+    
+}
+
+
+
+
+.box_btn {
+    transition: all .2s ease;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    
+}
+
+.box_btn:hover {
+    transform: scale(1.1,1.1);
+}
+
+
+.text_btn {
+    
+    font-size: 40px;
+    font-family: "Anton", sans-serif;
+    text-decoration: none;
+    color: white;
+
+}
+
+
+.btn_login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 4px 4px 4px rgba(0,0,0,0.5);
+    width: 200px;
+    height: 70px;
+    padding: 15px;
+    background: linear-gradient(60deg,#00bbff,#ff00ea);
+    border: 0px;
+    border-radius: 60px;
+    transition: all 0.2s ease;
+}
+/*    USER */
+
+.user:focus {
+    border: 3px solid #d3f3ff;
+    outline: none;
+} 
+
+
+.user::placeholder {
+    color: rgb(117, 117, 117);
+    opacity: 1;
+}
+
+.user {
+    padding-left: 7%;
+    
+    font-family: "Prompt", sans-serif;
+    color:  rgb(0, 0, 0);
+    font-size: 19px;
+    height: 68px;
+    background-color: lightgray;
+    border-radius: 45px;
+    border: 3px solid #ffffff;
+
+
+    width:93%;
+    transition: all .1s ease;
+}
+
+.user:hover {
+    border: 3px solid #d3f3ff;
+    
+}
+
+
+/*    PASS */
+
+.pass:focus {
+    border: 3px solid #ffb1f9;
+
+    outline: none;
+    
+}
+
+.bx {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    position: absolute;
+    right: 55%;
+    transition: all 0.2s ease;
+    width: 45px;
+    height: 45px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50px;
+    box-shadow: 4px 4px 4px rgba(0,0,0,0.5);
+
+    
+}
+
+
+
+
+.pass::placeholder {
+    color: rgb(117, 117, 117);
+    opacity: 1;
+}
+
+.pass {
+    padding-left: 7%;
+    
+    display: block;
+
+    font-family: "Prompt", sans-serif;
+    color:  rgb(0, 0, 0);
+    font-size: 19px;
+    height: 68px;
+    background-color: lightgray;
+    border-radius: 45px;
+    border: 3px solid #ffffff;
+    padding-right: 10%;
+    width:83%;
+    transition: all .1s ease;
+}
+
+
+.pass:hover {
+    border: 3px solid #ffb1f9;
+}
+
+.super_main {
+    display: flex;
+    background-color: rgba(0,0,0,0.7);
+    height: 100vh;
+    width: 100%;
+    float: left;
+}
+
+.main_div_2 {
+    display: block;
+    width: 40%;
+    height: 100vh;
+    
+}
+
+
+
+
+
+.hi_text {
+    width: 70%;
+    margin: auto;
+    font-family: "Anton", sans-serif;
+    
+    font-size: 120px;
+    color: white;
+    text-align: center;
+    transition: all .2s ease;
+
+}
+
+.hi_text:hover {
+    transform: scale(1.1,1.1);
+}
+
+
+.main_div_1 {
+    display: block;
+    background-color: white;
+
+    width: 60%;
+    height: 100vh;
+    float: left;
+}
+
+
+@media screen and (max-width: 650px) {
+    .hi_text {
+        font-size: 0px;
+    }
+
+    .main_div_2 {
+        width: 0;
+    }
+
+    .main_div_1 {
+        width: 100%;
+    }
+
+    .bx {
+        right: 24%;
+    }
+
+    .box_user {
+        width: 70%;
+    }
+
+    .pass {
+        font-size: 17px;
+
+    }
+
+    .user {
+        font-size: 17px;
+    }
+
+}

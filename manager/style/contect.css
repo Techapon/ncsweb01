@@ -1,0 +1,105 @@
+
+/* 
+.contect-div {
+    padding-top: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    
+}
+
+.contect-div p{
+    margin-left: 20%;
+    font-family: "Roboto", sans-serif;
+}
+
+.contect-div h4{
+    margin-left: 22%;
+    font-family: "Roboto", sans-serif;
+}
+
+.main-txt {
+    font-size: 60px;
+    font-family: "Prompt", sans-serif;
+    text-align: center;
+}
+
+.main-con {
+    display: flex;
+}
+
+.main {
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    font-weight: 500px;
+} */
+
+.head-text {
+    font-size: 70px;
+    font-family: "Kanit", sans-serif;
+}
+
+.img-con img{
+    width: 90%;
+    max-width: 80px;
+}
+
+.img-con {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 120px;
+    width: 120px;
+    border: 4px black solid;
+    border-radius: 50%;
+
+    transition:  all .2s ease;
+}
+
+.img-con:hover {
+    
+    box-shadow: 0 0 15px black;
+    transform: scale(1.1,1.1);
+}
+
+.number-phone {
+    margin-top: 50px;
+}
+
+.contact-con {
+    padding-top: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    
+}
+
+.cotact-data {
+    padding-left: 15%;
+    width: 85%;
+   
+}
+
+.number-data , .email-data {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left:5%;
+    
+    width: 100%s;
+}
+
+.email , .number-phone {
+    
+
+    display: flex;
+    
+}
+
+.number-data span, .email-data span{
+    font-family: "Kanit", sans-serif;
+    font-size: 25px;
+}

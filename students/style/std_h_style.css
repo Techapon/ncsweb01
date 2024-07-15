@@ -1,0 +1,189 @@
+
+
+.sp-1 {
+    font-family: "Prompt", sans-serif;
+    font-size: 120px;
+    color: lightgray;
+    text-align: center;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    
+}
+
+
+.top-bar {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left;
+    background-image: url("https://scontent-bkk1-1.xx.fbcdn.net/v/t39.30808-6/448159533_887514400083737_4859775535819186873_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=5f2048&_nc_ohc=cimvHxeI4dgQ7kNvgFoaRel&_nc_ht=scontent-bkk1-1.xx&oh=00_AYCGab10NtGgEg68NVpAT_X8ujMl3JON-T4p5u9c-5BrGg&oe=667B1B23");
+    background-color: #333;
+    width: 100%;
+}
+
+.main-div {
+    background-color:  rgba(0, 0, 0, 0.9);
+    align-items: center;
+    height: 60px;
+    padding: 5px;
+    border: 1px black solid;
+    display: flex;
+    justify-content: space-between;
+
+    box-shadow: 0 0 20px rgb(0, 0, 0);
+    
+}
+
+.other-con {
+    display: flex;
+    align-items: center;
+}
+
+
+
+.score, .donate{
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    max-width: 160px;
+    width: 70%;
+    
+   
+
+    height: 70px;
+    font-size: 22px;
+    font-family: "Prompt", sans-serif;
+    color: white;
+    text-decoration: none;
+
+    transition:  all .2s ease;
+}
+.score:hover , .donate:hover {
+    background-color: rgb(238, 238, 238);
+    color:  #333;
+    border: 1.5px solid rgb(0, 0, 0);
+    box-shadow:  0 0 10px rgb(255, 255, 255);
+}
+
+.bxs-home{
+    color: white;
+    font-size: 40px;
+    margin-left: 20px;
+}
+
+
+
+
+
+/* HOVER */
+
+/* .score a:hover {
+    
+    text-decoration:underline;
+}
+
+
+.donate-con a:hover {
+    text-decoration:underline;  
+} */
+
+/*end*/
+
+.other-con {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    width: 100%;
+   
+}
+
+
+
+.log-out-con:hover {
+    font-size: 20px;
+    
+    transform: scale(1.2,1.2);
+}
+
+.log-out-con{
+
+   
+
+    font-weight: 500px;
+    font-size: 18px;
+    font-family: "Prompt", sans-serif;
+    text-decoration: none;
+    color: #ffffff;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100px;
+    height: 40px;
+
+    /* padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 7px;
+    padding-bottom: 7px; */
+    border: 0;
+
+    transition: all .2s ease;
+
+    margin-left: 40px;
+    margin-right: 40px;
+    border-radius: 55px;
+    background: linear-gradient(60deg,#2ec7ff,#ff2ded);
+}
+
+@media screen and (max-width: 495px) {
+    .score{
+        font-size: 17px;
+        padding: 3px;
+    }
+
+    .donate{
+        font-size: 17px;
+        padding: 3px;
+    }
+
+    .log-out-con {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+
+    .score{
+        font-size: 15px;
+        padding: 3px;
+    }
+
+    .donate{
+        font-size: 15px;
+        padding: 3px;
+    }
+
+    .bxs-home {
+
+        font-size: 30px;
+    }
+
+    .log-out-con {
+        width: 80px;
+    }
+
+    .log-out-con a{
+        font-size: 15px;
+    }
+
+    
+    
+}
+

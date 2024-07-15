@@ -1,0 +1,135 @@
+
+
+
+body, html {
+    margin: 0;
+    padding: 0;
+}
+body {
+    
+    backdrop-filter: brightness(40%);
+    height: 92.55vh;
+    padding-top: 30px;
+    padding-bottom: 25px;
+    background-size: cover;
+    background-image: url("http://localhost/img_folder/skr2.jpg");
+}
+
+.text_1 {
+    
+    font-family: "Mitr", sans-serif;
+    font-weight: 500px;
+    color: rgb(255, 255, 255);
+    font-size: 70px;
+    
+
+}
+
+.box_text {
+    margin-top: 15px;
+    width: 100%;
+    text-align: center;
+
+}
+.logo_img {
+    
+    border-radius: 50%;
+    border:3px solid rgb(255, 0, 0) ;
+    width: 150px;
+    height: 150px;
+}
+
+
+.box_logo {
+    padding-top: 20px;
+    margin: auto;
+    text-align: center;
+    width: 156px;
+    
+}
+
+.main_box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+    padding-top: 50px;
+    border-radius: 20px;
+    /* border: 2.5px solid white ; */
+    margin: auto;
+    height: 650px;
+    max-width: 1300px;
+    width: 90%;
+    background-color: #00000048;
+    
+}
+
+.box_login {
+    box-shadow: 4px 4px 4px rgba(0,0,0,0.5);
+    width: 200px;
+    padding: 15px;
+    background: linear-gradient(60deg,#00bbff,#ff00ea);
+    border: 0px;
+    border-radius: 25px;
+    transition: all 0.2s ease;
+    
+    
+}
+
+.login {
+    font-family: "Anton", sans-serif;
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+}
+
+.a_box {
+    margin-top: 30px;
+    /* max-width: 16%; */
+    
+   
+    
+}
+
+.box_login:hover {
+    
+    background-color: rgb(0, 27, 235);
+    box-shadow: 0 0 20px rgba(255, 255, 255);
+    transform: scale(1.1,1.1);
+}
+
+
+@media screen and (max-width: 1035px) {
+    .box_logo {
+        width: 125px;
+        padding-top: 0px;
+        
+    }
+
+    .main_box {
+        padding-top: 20px;
+    }
+
+    .logo_img {
+        width: 110px;
+        height: 110px;
+    }
+
+    .text_1 {
+        font-size: 50px;
+    }
+}
+
+@media screen and (max-width: 405px) {
+    .text_1 {
+        font-size: 35px;
+    }
+
+    /* .a_box {
+        margin-top: 0;
+    } */
+
+   
+
+    
+}

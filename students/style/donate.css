@@ -1,0 +1,140 @@
+
+
+.donate-content {
+    z-index: 1;
+    border: 3px solid black;
+    margin: 50px auto;
+    max-width:1000px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 60.25vh;
+    padding-top: 115px;
+}
+
+.h {
+    font-size: 20px;
+    font-family: "Kanit", sans-serif;
+}
+
+
+.libraly-donate {
+   
+    width: 40%;
+    /* background-color: darkseagreen; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cow-donate {
+    width:35%;
+    /* background-color: rgb(174, 143, 188); */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.libraly-donate p,.cow-donate p{
+    font-family: "Kanit", sans-serif;
+    font-size: 22px;
+}
+
+
+.libraly-donate img{
+    width: 150px;
+    color: #000000;
+}
+.cow-donate img{
+    width: 150px;
+    color: #000000;
+}
+
+.libra-btn ,.cow-btn{
+    max-width: 160px;
+    width: 80%;
+    background-color: rgb(91, 255, 58);
+    border-radius: 20px;
+    border: 0;
+    transition: all .2s ease;
+    height: 50px;
+}
+
+.libra-btn span,.cow-btn span{
+    font-family: "Prompt", sans-serif;
+    font-size: 18px;
+    text-align: center;
+    color: #000000;
+}
+
+.cow-btn:hover,.libra-btn:hover {
+    
+    transform: scale(1.2,1.2);
+    box-shadow: 0 5px 15px black;
+}
+
+.popup {
+    width: 500px;
+    height: 90px;
+    border-radius: 10px;
+    position: absolute;
+    bottom:12%;
+    z-index: 2;
+    right: 32.5%;
+    background-color:  white;
+    box-shadow:  0 10px 20px black;
+
+    display: none;
+    align-items: center;
+
+    animation: pop-up;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+}
+
+.popup span{
+    margin-left: 5%;
+    font-family: "Bai Jamjuree", sans-serif;
+}
+
+.check-con {
+    margin-left: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: rgb(47, 230, 47);
+}
+
+.popup i{
+    font-size: 30px;
+    color: white;
+}
+
+
+.pop-down {
+    animation: pop-down;
+    animation-duration: 0.5s;
+    animation-iteration-count: 1 ;
+}
+
+@keyframes pop-up {
+    0% {
+        transform: translateY(20%);
+    }
+    100% {
+        transform: translateY(0%);
+    }
+}
+
+@keyframes pop-down {
+    0% {
+        transform: translateY(0%);
+    }
+    100% {
+        opacity: 0;
+        transform: translateY(30%);
+    }
+}
